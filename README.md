@@ -181,64 +181,6 @@ Amplificador
 Alto-falante
 ⚖️ DFPlayer Mini x UDA1334A
 
-O DFPlayer Mini e o UDA1334A podem ser utilizados em projetos de áudio com ESP32, mas possuem propostas diferentes.
-
-Característica	DFPlayer Mini	UDA1334A
-Cartão microSD	✅	Depende do projeto
-Reprodução MP3	✅	Depende do software
-Decodificação MP3	Interna	ESP32/software
-DAC	Interno	Externo
-Comunicação	UART	I²S
-Facilidade	⭐⭐⭐⭐⭐	⭐⭐⭐
-Flexibilidade de áudio	⭐⭐⭐	⭐⭐⭐⭐⭐
-Melhor para mensagens	✅	Pode ser utilizado
-Melhor para estudar I²S	❌	✅
-Processamento de áudio pelo ESP32	Baixo	Maior
-DFPlayer Mini
-
-Ideal quando o objetivo é:
-
-Reproduzir mensagens;
-Reproduzir MP3;
-Criar alarmes;
-Criar avisos sonoros;
-Projetos com robôs;
-Campainhas;
-Projetos simples e práticos.
-UDA1334A
-
-Ideal quando o objetivo é:
-
-Trabalhar com I²S;
-Estudar áudio digital;
-Utilizar um DAC externo;
-Ter maior controle sobre o fluxo de áudio;
-Desenvolver projetos de áudio com o ESP32.
-🧠 O que este projeto demonstra?
-
-Este projeto demonstra:
-
-Comunicação UART com ESP32;
-Controle do DFPlayer Mini;
-Reprodução de arquivos MP3;
-Utilização de cartão microSD;
-Uso de INPUT_PULLUP;
-Leitura de botões mecânicos;
-Controle de áudio através de comandos;
-Utilização de DAC externo ao ESP32;
-Diferenças de compatibilidade entre chips e bibliotecas.
-📁 Estrutura sugerida do projeto
-ESP32-DFPlayer-4-Mensagens/
-│
-├── codigo/
-│   └── ESP32_DFPlayer_4_Mensagens.ino
-│
-├── imagens/
-│   └── montagem.jpg
-│
-├── README.md
-│
-└── LICENSE
 🚀 Funcionamento
 
 Ao pressionar um botão, o ESP32 envia o comando correspondente ao DFPlayer.
