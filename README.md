@@ -1,3 +1,94 @@
+# ESP32 + DFPlayer Mini – 4 Mensagens de Áudio MP3
+
+Projeto utilizando **ESP32 + DFPlayer Mini + cartão microSD** para reproduzir quatro mensagens de áudio através de quatro botões mecânicos.
+
+O projeto foi desenvolvido para demonstrar uma forma simples de reproduzir arquivos MP3 utilizando o ESP32 sem precisar converter os áudios para arrays e armazená-los na memória do microcontrolador.
+
+---
+
+## 🎯 Objetivo
+
+Reproduzir quatro mensagens de áudio armazenadas em um cartão microSD.
+
+Cada botão aciona uma mensagem diferente:
+
+| Botão | GPIO ESP32 | Arquivo |
+|---|---:|---|
+| Botão 1 | GPIO 18 | `0001.mp3` |
+| Botão 2 | GPIO 19 | `0002.mp3` |
+| Botão 3 | GPIO 21 | `0003.mp3` |
+| Botão 4 | GPIO 23 | `0004.mp3` |
+
+---
+
+## 🔊 Como funciona
+
+O ESP32 não precisa processar diretamente o arquivo MP3.
+
+Ele envia comandos para o DFPlayer Mini através da comunicação serial UART.
+
+O DFPlayer:
+
+1. Lê o arquivo no cartão microSD;
+2. Decodifica o MP3;
+3. Converte o áudio digital para analógico através do seu circuito de áudio interno;
+4. Envia o sinal de áudio para a saída;
+5. O sinal pode ser conectado a um amplificador e alto-falante.
+
+### Fluxo do projeto
+
+ESP32  
+↓  
+UART  
+↓  
+DFPlayer Mini  
+↓  
+Cartão microSD  
+↓  
+Decodificação MP3  
+↓  
+DAC  
+↓  
+Saída de áudio  
+↓  
+Amplificador  
+↓  
+Alto-falante
+
+---
+
+# 🧩 Componentes
+
+- ESP32 DevKit
+- DFPlayer Mini
+- Cartão microSD
+- 4 botões mecânicos
+- Alto-falante
+- Amplificador de áudio (opcional)
+- Cabos jumper
+
+---
+
+# 🔌 Ligações
+
+## DFPlayer Mini
+
+| ESP32 | DFPlayer Mini |
+|---|---|
+| GPIO 17 (TX) | RX |
+| GPIO 16 (RX) | TX |
+| GND | GND |
+| 5V | VCC |
+
+> TX e RX devem ser ligados de forma cruzada.
+
+### Comunicação UART
+
+```text
+ESP32 GPIO17 TX ───────> RX DFPlayer
+ESP32 GPIO16 RX <─────── TX DFPlayer
+ESP32 GND        ─────── GND
+
 💾 Arquivos MP3
 
 Os arquivos devem ser armazenados no cartão microSD.
@@ -43,10 +134,10 @@ Funcionou utilizando:
 
 DFPlayerMini_Fast
 Resultado dos testes
-Chip	Biblioteca	Resultado
-TD5580A	DFRobotDFPlayerMini	✅ Funcionou
-Jieli AA19HFF851	DFRobotDFPlayerMini	❌ Não funcionou corretamente
-Jieli AA19HFF851	DFPlayerMini_Fast	✅ Funcionou
+Chip	              Biblioteca	               Resultado
+TD5580A	           DFRobotDFPlayerMini	      ✅ Funcionou
+Jieli AA19HFF851	  DFRobotDFPlayerMini	      ❌ Não funcionou corretamente
+Jieli AA19HFF851	  DFPlayerMini_Fast	        ✅ Funcionou
 
 Isso demonstra que módulos comercializados como DFPlayer Mini podem utilizar chips diferentes e apresentar diferenças de compatibilidade com determinadas bibliotecas.
 
