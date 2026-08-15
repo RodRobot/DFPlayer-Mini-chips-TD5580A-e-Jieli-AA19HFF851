@@ -136,8 +136,8 @@ DFPlayerMini_Fast
 Resultado dos testes
 Chip	                                  Biblioteca	               Resultado
 TD5580A	                               DFRobotDFPlayerMini	      ✅ Funcionou
-Jieli AA19HFF851	                      DFRobotDFPlayerMini	      ❌ Não funcionou corretamente
-Jieli AA19HFF851	                      DFPlayerMini_Fast	        ✅ Funcionou
+Jieli AA19HFF851	                   DFRobotDFPlayerMini	      ❌ Não funcionou corretamente
+Jieli AA19HFF851	                   DFPlayerMini_Fast	        ✅ Funcionou
 
 Isso demonstra que módulos comercializados como DFPlayer Mini podem utilizar chips diferentes e apresentar diferenças de compatibilidade com determinadas bibliotecas.
 
