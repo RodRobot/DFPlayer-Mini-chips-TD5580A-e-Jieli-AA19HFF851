@@ -197,7 +197,7 @@ O DFPlayer realiza a reprodução diretamente do cartão microSD.
 Projeto apresentado no canal RodRobot.
 
 🔗 YouTube:
-https://youtu.be/xctLNFYQYnY
+<https://youtu.be/xctLNFYQYnY>
 
 🌐 Projeto RodRobot
 
@@ -206,10 +206,10 @@ https://youtu.be/xctLNFYQYnY
 📡 Arduino | ESP32 | Raspberry Pi
 
 Blog:
-https://rodrobot.blogspot.com/
+<https://rodrobot.blogspot.com/>
 
 Projetos:
-https://rodrobot.blogspot.com/p/projetos.html
+<https://rodrobot.blogspot.com/p/projetos.html>
 
 📜 Licença
 
