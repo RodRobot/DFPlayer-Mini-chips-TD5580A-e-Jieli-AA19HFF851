@@ -206,11 +206,6 @@ https://rodrobot.blogspot.com/2026/08/dfplayer-mini-no-esp32-diferenca-entre.htm
 Projetos
 https://rodrobot.blogspot.com/p/projetos.html
 
-Acompanhe novos projetos:
-
-Projetos: [https://rodrobot.blogspot.com/](https://rodrobot.blogspot.com/p/projetos.html)
-YouTube: https://www.youtube.com/watch?v=xctLNFYQYnY&t=2s
-
 📜 Licença
 
 Este projeto é disponibilizado para fins educacionais.
