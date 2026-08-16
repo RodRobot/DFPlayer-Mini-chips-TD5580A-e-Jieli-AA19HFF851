@@ -192,11 +192,11 @@ Botão 4 → GPIO23 → 0004.mp3
 
 O DFPlayer realiza a reprodução diretamente do cartão microSD.
 
-📺 Vídeo do projeto
+Vídeo do projeto
 
 Projeto apresentado no canal RodRobot.
 
-🔗 YouTube
+YouTube
 https://youtu.be/xctLNFYQYnY
 
 
