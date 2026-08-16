@@ -200,13 +200,6 @@ Projeto apresentado no canal RodRobot.
 YouTube
 https://youtu.be/xctLNFYQYnY
 
-
-🌐 Projeto RodRobot
-
-🔧 Eletrônica para Makers
-🤖 Projetos práticos
-📡 Arduino | ESP32 | Raspberry Pi
-
 Página do projeto
 https://rodrobot.blogspot.com/2026/08/dfplayer-mini-no-esp32-diferenca-entre.html
 
