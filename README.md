@@ -206,8 +206,10 @@ https://youtu.be/xctLNFYQYnY
 🤖 Projetos práticos
 📡 Arduino | ESP32 | Raspberry Pi
 
+
 Blog:
-https://rodrobot.blogspot.com/
+[Clique aqui para acessar meu site](https://rodrobot.blogspot.com/)
+
 
 Projetos:
 https://rodrobot.blogspot.com/p/projetos.html
