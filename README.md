@@ -210,6 +210,8 @@ https://youtu.be/xctLNFYQYnY
 Blog
 https://rodrobot.blogspot.com/
 
+Página do projeto
+https://rodrobot.blogspot.com/2026/08/dfplayer-mini-no-esp32-diferenca-entre.html
 
 Projetos
 https://rodrobot.blogspot.com/p/projetos.html
@@ -226,6 +228,3 @@ RodRobot
 
 🔧 Eletrônica para Makers
 🤖 Projetos práticos com Arduino e ESP32
-
-Página do projeto
-https://rodrobot.blogspot.com/2026/08/dfplayer-mini-no-esp32-diferenca-entre.html
