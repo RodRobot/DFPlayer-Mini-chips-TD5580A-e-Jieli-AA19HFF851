@@ -207,15 +207,13 @@ https://youtu.be/xctLNFYQYnY
 🤖 Projetos práticos
 📡 Arduino | ESP32 | Raspberry Pi
 
-
-Blog
-https://rodrobot.blogspot.com/
-
 Página do projeto
 https://rodrobot.blogspot.com/2026/08/dfplayer-mini-no-esp32-diferenca-entre.html
 
 Projetos
 https://rodrobot.blogspot.com/p/projetos.html
+<a href="https://rodrobot.blogspot.com/p/projetos.html">CLIQUE AQUI PARA ACESSAR</a>
+
 
 📜 Licença
 
