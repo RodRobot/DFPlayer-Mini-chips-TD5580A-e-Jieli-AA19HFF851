@@ -83,7 +83,7 @@ void setup()
 
   player.begin(mp3Serial);                  // Inicia o DFPlayer
 
-  player.volume(20);                        // Volume de 0 a 30 -> maximo que suporta no teste foi 20
+  player.volume(18);                        // Volume de 0 a 30 -> maximo que suporta no teste foi 20
 
   Serial.println("DFPlayer iniciado!");
   Serial.println("Sistema pronto.");
