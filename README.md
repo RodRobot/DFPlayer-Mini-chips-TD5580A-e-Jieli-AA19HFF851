@@ -210,7 +210,7 @@ Blog:
 <https://rodrobot.blogspot.com/>
 
 Projetos:
-<https://rodrobot.blogspot.com/p/projetos.html>
+https://rodrobot.blogspot.com/p/projetos.html
 
 📜 Licença
 
