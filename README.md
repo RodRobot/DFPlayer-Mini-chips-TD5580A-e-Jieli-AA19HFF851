@@ -1,6 +1,3 @@
-
-</>Markdown
-
 ## ESP32 + DFPlayer Mini – 4 Mensagens de Áudio MP3
 
 Projeto utilizando **ESP32 + DFPlayer Mini + cartão microSD** para reproduzir quatro mensagens de áudio através de quatro botões mecânicos.
